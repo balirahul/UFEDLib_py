@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ufedlib-py"
+version = "1.0.0"
+description = "Python port of UFEDLib (.ufdr/report.xml parser)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Rahul Bali"}]
+
+[project.scripts]
+ufedlib-py = "ufedlib_py.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
