@@ -1,9 +1,10 @@
 # UFEDLib_py
 
-Python port of the C# **UFEDLib** project originally created by Sönke Eilers  [(https://github.com/SEilers/UFEDLib)].
-
 UFEDLib_py library parses Cellebrite UFED/UFDR output files into Python dataclasses and 
 provides a high-level `ReportData` object for easier access and processing of forensic report data.
+
+inspired by or complementary to the C# **UFEDLib** project originally created by Sönke Eilers  [(https://github.com/SEilers/UFEDLib)].
+Thanks to the author for the outstanding C# foundation!
 
 ## Features
 
