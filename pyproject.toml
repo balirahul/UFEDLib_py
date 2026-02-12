@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ufedlib-py"
 version = "1.0.0"
-description = "Python port of UFEDLib (.ufdr/report.xml parser)"
+description = "ufedlib-py is Python port of UFEDLib (.ufdr/report.xml parser)"
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
